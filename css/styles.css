@@ -1,0 +1,36 @@
+h1 {
+    color: #C1DEAE;
+}
+div.links {
+    display: flex; flex-direction: column;
+}
+.mainmenubtn {
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding-left: 0px;
+    padding-top: 0px;
+    
+}
+.mainmenubtn:hover {
+    background-color: white;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: white;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
