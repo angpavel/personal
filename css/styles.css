@@ -3,6 +3,7 @@ h1 {
 }
 div.links {
     display: flex; flex-direction: column;
+    color: black
 }
 .mainmenubtn {
     background-color: white;
